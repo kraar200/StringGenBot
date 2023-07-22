@@ -1,7 +1,7 @@
 {
-    "name": "String Gen Bot",
-    "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
-    "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
+    "name": "بوت جلسات",
+    "description": " بوت تلجرام لانشاء جلسات Telethon و Pyrogram .",
+    "logo": "https://graph.org/file/615b4a24c7dc90113cc29.jpg",
     "keywords": [
         "python3",
         "telegram",
@@ -14,27 +14,27 @@
     "repository": "https://github.com/kraar200/StringGenBot",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "يمكنك الحصول عليه من https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "يمكنك الحصول عليه من https://my.telegram.org",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "احصل عليه من @Botfather",
         "value": "",
         "required": true
       },
       "OWNER_ID": {
-        "description": "Fill your user id here. (Must be integer)",
-        "value": "",
+        "description": "ايديك على التلجرام. (يجب ان يكون صحيحاً)",
+        "value": "611122715",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get this value from cloud.mongodb.com",
+        "description": "يمكنك الحصول عليه من cloud.mongodb.com",
         "value": "",
         "required": true
       }
